@@ -1,0 +1,18 @@
+.buy-surfboard {
+	height: 100vh;
+	min-height: 650px;
+	padding: 62px 0 85px;
+	color: #fff;
+	background: url(../../img/bg-img/cta.png) top left / cover no-repeat;
+	.form__button:not(:last-child) {
+		margin-right: 22px;
+	}
+	&__title {
+		color: #fff;
+	}
+}
+
+.form__controls--margin {
+	margin-bottom: 44px;
+}
+

@@ -1,0 +1,50 @@
+.form {
+	display: flex;
+
+	&__column {
+		flex: 1;
+	}
+	&__column:not(:last-child) {
+		margin-right: 26px;
+	}
+	&__row {
+		display: flex;
+	}
+	&__block {
+		flex: 1;
+	}
+	&__block:not(:last-child) {
+		margin-right: 16px;
+	}
+	&__row:not(:last-child) {
+		margin-bottom: 14px;
+	}
+	&__input {
+		width: 100%;
+		padding: 18px 68px 20px 12px;
+		border-radius: 4px;
+		border: 3px solid transparent;
+	}
+	&__input:focus {
+		outline: none;
+		border: 3px solid #FEDB3F;
+	}
+	&__input--textarea {
+		height: 152px;
+		resize: none;
+	}
+	&__coments {
+		margin-right: 36px;
+	}
+	&__controls {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&__radio:not(:last-child) {
+		margin-right: 12px;
+		margin-bottom: 16px;
+	}
+	&__button-group {
+		display: flex;
+	}
+}

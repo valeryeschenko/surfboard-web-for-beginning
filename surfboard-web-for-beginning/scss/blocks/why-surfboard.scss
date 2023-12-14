@@ -1,0 +1,67 @@
+.why-surfboard {
+	height: 100vh;
+	min-height: 650px;
+	padding: 105px 0 113px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	.why-surfboard__title {
+		margin-bottom: 17px;
+	}
+
+	.why-surfboard__text {
+		padding: 0 26%;
+		margin-bottom: 49px;
+		text-align: center;
+	}
+
+	.cards {
+		display: flex;
+		&__item {
+			position: relative;
+			flex: 1;
+			padding: 0 3%;
+			&:first-child {
+				margin-left: 0;
+			}
+			&:last-child {
+				margin-right: 0;
+			}
+			&:not(:last-child)::before {
+				content: url("../../img/icon/why-surfboard-icon/Combined\ shape\ 2203.svg");
+				position: absolute;
+				top: 60px;
+				right: 0;
+				transform: translateX(50%);
+			}
+		}
+	}
+
+	.card {
+		text-align: center;
+		&__img-container {
+			display: inline-block;
+			position: relative;
+			width: 126px;
+			height: 126px;
+			border-radius: 50%;
+			background: #f2f5f4;
+			margin-bottom: 20px;
+		}
+		&__img {
+			width: 66px;
+			height: 66px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		&__img--width-44px {
+			width: 44px;
+		}
+		&__title {
+			margin-bottom: 20px;
+		}
+	}
+}

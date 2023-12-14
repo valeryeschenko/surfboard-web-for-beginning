@@ -1,0 +1,22 @@
+.footer {
+	height: 100vh;
+	min-height: 650px;
+	.map {
+		text-align: center;
+		vertical-align: top;
+	}
+	.contacts::before {
+		content: "";
+		display: inline-block;
+		width: 12px;
+		height: 12px;
+		background-image: url(../../img/icon/contact-icon/Vector.svg);
+		background-position: center;
+		margin-right: 5px;
+	}
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		padding: 17px 0 18px;
+	}
+}

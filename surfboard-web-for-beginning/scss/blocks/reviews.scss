@@ -1,0 +1,51 @@
+.rewies {
+	height: 100vh;
+	min-height: 650px;
+	display: flex;
+	flex-direction: column;
+	padding: 62px 0;
+	&__card {
+		background-color: #F8FAF9;
+		padding: 42px 142px 42px 42px;
+		margin-bottom: 12px;
+	}
+	&__img {
+		width: 253px;
+		height: 264px;
+	}
+	&__content {
+		display: flex;
+	}
+	&__wrapper-content {
+		padding: 28px 0 38px 40px;
+	}
+	&__title {
+		margin-bottom: 14px;
+	}
+	&__text {
+		margin-bottom: 25px;
+	}
+	&__name {
+		font-weight: 500;
+		color: #292929;
+	}
+	&__list {
+		display: flex;
+		justify-content: center;
+	}
+	&__item {
+		border: 6px solid transparent;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+	&__item:hover {
+		border: 6px solid #FEDB3F;
+	}
+	&__item--active {
+		border: 6px solid #FEDB3F;
+	}
+	&__img-user {
+		width: 74px;
+		height: 74px;
+	}
+}

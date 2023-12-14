@@ -1,0 +1,54 @@
+.start-page {
+	background: url(../../img/bg-img/bg.png) top center / cover no-repeat;
+	background-color: #1968b1;
+	color: #ffffff;
+	height: 100vh;
+	min-height: 650px;
+	padding: 28px 0 65px 0;
+	&__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+	}
+	&__header {
+		margin-bottom: 103px;
+	}
+	&__main {
+		.start-page__title {
+			font-size: 48px;
+			font-weight: 600;
+			text-transform: uppercase;
+			margin-bottom: 17px;
+
+			.start-page__title-span {
+				display: block;
+			}
+		}
+
+		.start-page__text {
+			margin-bottom: 39px;
+			font-weight: 400;
+		}
+		.start-page__button {
+			margin-bottom: 64px;
+		}
+	}
+	.option {
+		&__list {
+			display: flex;
+		}
+		&__item {
+			display: flex;
+			align-items: center;
+			font-weight: 700;
+
+			.option__icon {
+				margin-right: 15px;
+			}
+		}
+		&__item:not(:last-child){
+			margin-right: 30px;
+		}
+	}
+}

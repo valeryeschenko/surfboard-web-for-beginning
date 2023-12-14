@@ -1,0 +1,21 @@
+.button {
+	display: block;
+	width: 156px;
+	height: 60px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #FEDB3F;
+	padding: 21px 41px 21px 41px;
+	border-radius: 100px;
+	color: #000000;
+	font-size: 16px;
+	font-weight: 800;
+	text-transform: uppercase;
+	&--transparent {
+		cursor: pointer;
+		background: transparent;
+		color: #fff;
+		text-transform: none;
+	}
+}
+

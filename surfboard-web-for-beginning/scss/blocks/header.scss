@@ -1,0 +1,20 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	font-weight: 700;
+	.menu__list {
+		display: flex;
+		.menu__item:not(:last-child) {
+			margin-right: 22px;
+		}
+	}
+	.contacts::before {
+		content: "";
+		display: inline-block;
+		width: 13px;
+		height: 14px;
+		background-image: url(../../img/icon/contact-icon/tel.svg);
+		background-position: center;
+		margin-right: 5px;
+	}
+}

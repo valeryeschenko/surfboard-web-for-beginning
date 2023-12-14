@@ -1,0 +1,18 @@
+.fix-menu {
+  position: fixed;
+  top: 30%;
+  right: 3%;
+}
+.fix-menu__item {
+  margin-bottom: 5px;
+}
+.fix-menu__link--active .fix-menu__link {
+  border: 1px solid transparent #fff;
+}
+.fix-menu__link {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  display: block;
+}
