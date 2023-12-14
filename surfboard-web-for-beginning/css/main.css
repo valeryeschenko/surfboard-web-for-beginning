@@ -462,7 +462,7 @@ table {
   display: inline-block;
   width: 13px;
   height: 14px;
-  background-image: url(../../img/icon/contact-icon/tel.svg);
+  background-image: url(../img/icon/contact-icon/tel.svg);
   background-position: center;
   margin-right: 5px;
 }
