@@ -489,7 +489,7 @@ table {
 }
 
 .start-page {
-  background: url(../../img/bg-img/bg.png) top center/cover no-repeat;
+  background: url(../img/bg-img/bg.png) top center/cover no-repeat;
   background-color: #1968b1;
   color: #ffffff;
   height: 100vh;
@@ -591,7 +591,7 @@ table {
   margin-right: 0;
 }
 .why-surfboard .cards__item:not(:last-child)::before {
-  content: url("../../img/icon/why-surfboard-icon/Combined shape 2203.svg");
+  content: url("../img/icon/why-surfboard-icon/Combined shape 2203.svg");
   position: absolute;
   top: 60px;
   right: 0;
@@ -766,7 +766,7 @@ table {
   border-radius: 4px;
 }
 .radio--checkbox .radio__style::before {
-  background: url(../../img/icon/form/Vector.svg) center center no-repeat;
+  background: url(../img/icon/form/Vector.svg) center center no-repeat;
 }
 .radio__input {
   display: none;
@@ -801,7 +801,7 @@ table {
   min-height: 650px;
   padding: 62px 0 85px;
   color: #fff;
-  background: url(../../img/bg-img/cta.png) top left/cover no-repeat;
+  background: url(../img/bg-img/cta.png) top left/cover no-repeat;
 }
 .buy-surfboard .form__button:not(:last-child) {
   margin-right: 22px;
@@ -827,7 +827,7 @@ table {
   display: inline-block;
   width: 12px;
   height: 12px;
-  background-image: url(../../img/icon/contact-icon/Vector.svg);
+  background-image: url(../img/icon/contact-icon/Vector.svg);
   background-position: center;
   margin-right: 5px;
 }
@@ -855,7 +855,7 @@ table {
   display: flex;
 }
 .social__item {
-  background: url(../../img/icon/social/spritesheet.png);
+  background: url(../img/icon/social/spritesheet.png);
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
